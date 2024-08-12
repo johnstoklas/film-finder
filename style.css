@@ -1,0 +1,170 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-nav div {
+    display: inline-block;
+}
+
+.titles {
+    margin: 0;
+    margin: 10px 0;
+    margin-left: 25px;
+}
+
+.horizontal-header {
+    font-weight: 400;
+}
+
+.website-title {
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.horizontal-row {
+    margin-left: 25px;
+}
+.website-header-title > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.website-icon {
+    width: 40px;
+    height: auto;
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
+}
+
+.item {
+    width: 150px;
+    height: 225px;
+    text-align: center;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.poster {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-arrow, .right-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    margin-left: -10px;
+}
+
+.right-arrow {
+    margin-left: 1190px;
+}
+
+.arrow-one {
+    margin-top: -80px;
+}
+
+.arrow-two {
+    margin-top: 215px;
+}
+
+.arrow-three {
+    margin-top: 515px;
+}
+
+.arrow-four {
+    margin-top: 815px;
+}
+
+.score-border {
+    display: block;
+    border-radius: 50px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 4px;
+    margin-bottom: 20px;
+    margin-left: 115px;
+    margin-top: -35px;
+}
+
+.score-text{
+    margin: 0;
+    padding: .75em 0;
+}
+
+.pop-up {
+    display: none;
+    width: 400px;
+    height: 225px;
+    white-space: pre-line;
+    background-color: rgba(0,0,0,.9);
+    color: #fff;
+    position: absolute;
+}
+
+.pop-up-overview {
+    font-size: 10px;
+    margin: 0;
+    height: 55%;
+    margin-left: 15px;
+}
+
+.pop-up-genre {
+    font-size: 12px;
+    height: 0%;
+    margin: 0;
+    font-weight: bold;
+}
+
+.pop-up-header li {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.pop-up-header {
+    white-space: nowrap;
+    height: 5%
+}
+
+.pop-up > * {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background: #466368;
+    background: -webkit-linear-gradient(#648880, #293f50);
+    background: -moz-linear-gradient(#648880, #293f50);
+    background: linear-gradient(#648880, #293f50);
+}
+
+* {
+    color: white;
+    text-decoration: none;
+}
+
+.navigator {
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.go-back {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.switch-button {
+    border: 2px solid white;
+    padding: .2em .4em;
+}

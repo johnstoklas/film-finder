@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="indexLoad()">
+    <header class="main-nav">
+        <div class="website-header-title">
+            <h1 class="website-title titles">Film Finder</h1>
+            <img class="website-icon" src="images/film_icon.png">
+        </div>
+        <div class="navigator">
+            <a href="tv.html" class="switch-button">Search TV</a>
+        </div>
+    </header>
+    <section>
+        <a href="popMovies.html">
+            <h1 class="horizontal-header titles">Popular Movies</h1>
+        </a>
+        <div id="pop-movies-overhead" class="horizontal-row">
+            <a class="left-arrow arrow-one" onclick="shift(-1, 'pop-movies')">&#10094</a>
+            <a class="right-arrow arrow-one" onclick="shift(1, 'pop-movies')">&#10095</a>
+        </div>
+    </section>
+    <section>
+        <a href="ratedMovies.html">
+            <h1 class="horizontal-header titles">Top Rated Movies</h1>
+        </a>
+        <div id="rated-movies-overhead" class="horizontal-row">
+            <a class="left-arrow arrow-two" onclick="shift(-1, 'rated-movies')">&#10094</a>
+            <a class="right-arrow arrow-two" onclick="shift(1, 'rated-movies')">&#10095</a>
+        </div>
+    </section>
+    <section>
+        <a href="nowMovies.html">
+            <h1 class="horizontal-header titles">In Theatres Now</h1>
+        </a>
+        <div id="now-movies-overhead" class="horizontal-row">
+            <a class="left-arrow arrow-three" onclick="shift(-1, 'now-movies')">&#10094</a>
+            <a class="right-arrow arrow-three" onclick="shift(1, 'now-movies')">&#10095</a>
+        </div>
+    </section>
+    <section>
+        <a href="soonMovies.html">
+            <h1 class="horizontal-header titles">Movies Coming Soon</h1>
+        </a>
+        <div id="soon-movies-overhead" class="horizontal-row">
+            <a class="left-arrow arrow-four" onclick="shift(-1, 'soon-movies')">&#10094</a>
+            <a class="right-arrow arrow-four" onclick="shift(1, 'soon-movies')">&#10095</a>
+        </div>
+    </section>
+    <script src="index.js"></script> 
+</body>
+</html>

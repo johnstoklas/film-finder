@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="tvLoad()">
+    <header class="main-nav">
+        <div class="website-header-title">
+            <h1 class="website-title titles">Film Finder</h1>
+            <img class="website-icon" src="images/film_icon.png">
+        </div>
+        <div class="navigator">
+            <a href="index.html" class="switch-button">Search Movies</a>
+        </div>
+    </header>
+    <section>
+        <a href="popTV.html">
+            <h1 class="horizontal-header titles">Popular TV</h1>
+        </a>
+        <div id="pop-tv-overhead" class="horizontal-row">
+            <a class="left-arrow arrow-one" onclick="shift(-1, 'pop-tv')">&#10094</a>
+            <a class="right-arrow arrow-one" onclick="shift(1, 'pop-tv')">&#10095</a>
+        </div>
+    </section>
+    <section>
+        <a href="ratedTV.html">
+            <h1 class="horizontal-header titles">Top Rated TV</h1>
+        </a>
+        <div id="rated-tv-overhead" class="horizontal-row">
+            <a class="left-arrow arrow-two" onclick="shift(-1, 'rated-tv')">&#10094</a>
+            <a class="right-arrow arrow-two" onclick="shift(1, 'rated-tv')">&#10095</a>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
