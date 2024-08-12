@@ -1,1 +1,1 @@
-# film-finder
+Implements the TMDB API to show users what movies and TV shows are currently popular.
