@@ -1,5 +1,3 @@
-var apiKey = "3f540891f7b254dd92eaaa54c0895843";
-
 const apiPopMovies = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`;
 const popMoviesContainer = document.getElementById("pop-movies-overhead");
 
